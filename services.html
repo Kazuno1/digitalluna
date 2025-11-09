@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services — The Digital Luna</title>
+  <link rel="icon" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="logo"></span><span>The Digital Luna</span></a>
+      <nav class="nav-links"><a href="services.html" class="active">Services</a><a href="portfolio.html">Work</a><a href="pricing.html">Pricing</a><a href="blog.html">Blog</a><a href="about.html">About</a><a href="contact.html" class="btn small">Get Quote</a></nav>
+      <button class="mobile-toggle" id="mobToggle">☰</button>
+    </div>
+    <div class="drawer" id="drawer">
+      <a href="services.html" class="active">Services</a><a href="portfolio.html">Work</a><a href="pricing.html">Pricing</a><a href="blog.html">Blog</a><a href="about.html">About</a><a href="contact.html" class="btn small">Get Quote</a>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Services that move the needle</h1>
+      <p>Pick one service or bundle into a growth plan.</p>
+    </div>
+  </section>
+
+  <section id="web">
+    <div class="container grid-2">
+      <article class="card">
+        <span class="pill">Web Development</span>
+        <h3>Conversion‑ready Websites</h3>
+        <p>Modern, fast, SEO‑friendly sites in Webflow, WordPress, or Next.js. Built to scale and easy to manage.</p>
+        <ul class="tick-list">
+          <li>Design system & components</li>
+          <li>CMS setup & integrations</li>
+          <li>Performance & accessibility</li>
+        </ul>
+        <a class="btn ghost" href="contact.html">Get a Web Quote</a>
+      </article>
+      <article class="card">
+        <span class="pill">Brand & Content</span>
+        <h3>Messaging that Sells</h3>
+        <p>Positioning, brand voice, landing pages, and content that turns visitors into buyers.</p>
+        <ul class="tick-list">
+          <li>Landing pages & funnels</li>
+          <li>Copywriting & on‑page SEO</li>
+          <li>Content calendars</li>
+        </ul>
+        <a class="btn ghost" href="contact.html">Plan Content</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="traffic">
+    <div class="container grid-2">
+      <article class="card">
+        <span class="pill">Traffic</span>
+        <h3>SEO & Paid Media</h3>
+        <p>Technical SEO, on‑page, and performance ads (Meta/Google) with dashboards & weekly insights.</p>
+        <ul class="tick-list">
+          <li>Technical audits & fixes</li>
+          <li>Keyword & content strategy</li>
+          <li>Meta/Google campaign management</li>
+        </ul>
+        <a class="btn" href="contact.html">Request Audit</a>
+      </article>
+      <article class="card">
+        <span class="pill">Care</span>
+        <h3>Care & Hosting</h3>
+        <p>Managed updates, backups, uptime monitoring, and performance tweaks.</p>
+        <ul class="tick-list">
+          <li>24/7 monitoring</li>
+          <li>Core & plugin updates</li>
+          <li>Monthly report</li>
+        </ul>
+        <a class="btn ghost" href="pricing.html">See Plans</a>
+      </article>
+    </div>
+  </section>
+
+  <footer class="footer simple">
+    <div class="container legal">
+      <small>© <span id="year"></span> The Digital Luna</small>
+      <a class="pill" href="contact.html">Start a Project</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

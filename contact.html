@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — The Digital Luna</title>
+  <link rel="icon" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="logo"></span><span>The Digital Luna</span></a>
+      <nav class="nav-links"><a href="services.html">Services</a><a href="portfolio.html">Work</a><a href="pricing.html">Pricing</a><a href="blog.html">Blog</a><a href="about.html">About</a><a href="contact.html" class="active btn small">Get Quote</a></nav>
+      <button class="mobile-toggle" id="mobToggle">☰</button>
+    </div>
+    <div class="drawer" id="drawer">
+      <a href="services.html">Services</a><a href="portfolio.html">Work</a><a href="pricing.html">Pricing</a><a href="blog.html">Blog</a><a href="about.html">About</a><a href="contact.html" class="active btn small">Get Quote</a>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Tell us your goals</h1>
+      <p>We’ll reply with a tailored plan within 24 hours.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container grid-2">
+      <form id="leadForm" class="card form">
+        <label>Name<input required name="name" /></label>
+        <label>Email<input required type="email" name="email" /></label>
+        <label>Company<input name="company" /></label>
+        <label>What are you looking to achieve?
+          <textarea name="goals" rows="6" placeholder="e.g., new site, faster pages, SEO, ads"></textarea>
+        </label>
+        <label class="check"><input type="checkbox"/> Subscribe to insights</label>
+        <button class="btn">Send Request</button>
+      </form>
+      <aside class="card">
+        <h3>What happens next?</h3>
+        <ul class="tick-list">
+          <li>We review your goals & assets</li>
+          <li>We send a plan + pricing in 24h</li>
+          <li>Kickoff on the next business day</li>
+        </ul>
+        <p class="muted">Prefer email? <a href="mailto:hello@thedigitalluna.com">hello@thedigitalluna.com</a></p>
+      </aside>
+    </div>
+  </section>
+
+  <footer class="footer simple">
+    <div class="container legal">
+      <small>© <span id="year"></span> The Digital Luna</small>
+      <a class="pill" href="index.html">Back to Home</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

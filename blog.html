@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog — The Digital Luna</title>
+  <link rel="icon" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="logo"></span><span>The Digital Luna</span></a>
+      <nav class="nav-links"><a href="services.html">Services</a><a href="portfolio.html">Work</a><a href="pricing.html">Pricing</a><a href="blog.html" class="active">Blog</a><a href="about.html">About</a><a href="contact.html" class="btn small">Get Quote</a></nav>
+      <button class="mobile-toggle" id="mobToggle">☰</button>
+    </div>
+    <div class="drawer" id="drawer">
+      <a href="services.html">Services</a><a href="portfolio.html">Work</a><a href="pricing.html">Pricing</a><a href="blog.html" class="active">Blog</a><a href="about.html">About</a><a href="contact.html" class="btn small">Get Quote</a>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Insights & playbooks</h1>
+      <p>Short, actionable reads on CRO, SEO, and growth.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container grid-3">
+      <article class="card post">
+        <span class="tag">CRO</span>
+        <h3>7 quick wins before you redesign</h3>
+        <p>From above‑the‑fold clarity to frictionless CTAs — try these first.</p>
+        <a class="link" href="#">Read →</a>
+      </article>
+      <article class="card post">
+        <span class="tag">SEO</span>
+        <h3>Technical fixes that move rankings</h3>
+        <p>Indexing, Core Web Vitals, and structured data basics that matter.</p>
+        <a class="link" href="#">Read →</a>
+      </article>
+      <article class="card post">
+        <span class="tag">Ads</span>
+        <h3>Creative angles that convert</h3>
+        <p>Message‑market match and scroll‑stoppers for Meta & Google.</p>
+        <a class="link" href="#">Read →</a>
+      </article>
+    </div>
+  </section>
+
+  <footer class="footer simple">
+    <div class="container legal">
+      <small>© <span id="year"></span> The Digital Luna</small>
+      <a class="pill" href="contact.html">Start a Project</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

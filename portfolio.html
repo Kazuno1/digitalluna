@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio — The Digital Luna</title>
+  <link rel="icon" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="logo"></span><span>The Digital Luna</span></a>
+      <nav class="nav-links"><a href="services.html">Services</a><a href="portfolio.html" class="active">Work</a><a href="pricing.html">Pricing</a><a href="blog.html">Blog</a><a href="about.html">About</a><a href="contact.html" class="btn small">Get Quote</a></nav>
+      <button class="mobile-toggle" id="mobToggle">☰</button>
+    </div>
+    <div class="drawer" id="drawer">
+      <a href="services.html">Services</a><a href="portfolio.html" class="active">Work</a><a href="pricing.html">Pricing</a><a href="blog.html">Blog</a><a href="about.html">About</a><a href="contact.html" class="btn small">Get Quote</a>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Selected work</h1>
+      <p>Swap these cards with your real projects and case studies.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container grid-3">
+      <div class="folio card">
+        <div class="thumb"></div>
+        <h3>Healthcare Funnel</h3>
+        <p>+38% CVR, –24% CPA: rebuilt the patient intake and paid funnel.</p>
+      </div>
+      <div class="folio card">
+        <div class="thumb"></div>
+        <h3>Retail Brand</h3>
+        <p>Shopify redesign + CRO playbooks for seasonal promotions.</p>
+      </div>
+      <div class="folio card">
+        <div class="thumb"></div>
+        <h3>B2B SaaS</h3>
+        <p>Next.js site + activation‑driven messaging to shorten time‑to‑value.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer simple">
+    <div class="container legal">
+      <small>© <span id="year"></span> The Digital Luna</small>
+      <a class="pill" href="contact.html">Start a Project</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

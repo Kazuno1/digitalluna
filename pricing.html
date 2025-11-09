@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pricing — The Digital Luna</title>
+  <link rel="icon" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="logo"></span><span>The Digital Luna</span></a>
+      <nav class="nav-links"><a href="services.html">Services</a><a href="portfolio.html">Work</a><a href="pricing.html" class="active">Pricing</a><a href="blog.html">Blog</a><a href="about.html">About</a><a href="contact.html" class="btn small">Get Quote</a></nav>
+      <button class="mobile-toggle" id="mobToggle">☰</button>
+    </div>
+    <div class="drawer" id="drawer">
+      <a href="services.html">Services</a><a href="portfolio.html">Work</a><a href="pricing.html" class="active">Pricing</a><a href="blog.html">Blog</a><a href="about.html">About</a><a href="contact.html" class="btn small">Get Quote</a>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Flexible pricing</h1>
+      <p>Start with a sprint or choose a subscription to keep momentum.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container grid-3">
+      <div class="price card">
+        <div class="price-head"><h3>Launch Sprint</h3><span>2–3 weeks</span></div>
+        <div class="number">$3,500</div>
+        <ul class="tick-list">
+          <li>1 landing page or 3‑page site</li>
+          <li>Copywriting & basic SEO</li>
+          <li>Analytics + heatmap setup</li>
+        </ul>
+        <a class="btn" href="contact.html">Start a Sprint</a>
+      </div>
+      <div class="price card featured">
+        <div class="price-head"><h3>Growth Plan</h3><span>Monthly</span></div>
+        <div class="number">$1,200</div>
+        <ul class="tick-list">
+          <li>Design & dev hours</li>
+          <li>SEO / CRO improvements</li>
+          <li>Optional ads management</li>
+        </ul>
+        <a class="btn" href="contact.html">Choose Growth</a>
+      </div>
+      <div class="price card">
+        <div class="price-head"><h3>Care & Hosting</h3><span>Monthly</span></div>
+        <div class="number">$120</div>
+        <ul class="tick-list">
+          <li>Managed updates & backups</li>
+          <li>24/7 monitoring</li>
+          <li>Performance tweaks</li>
+        </ul>
+        <a class="btn" href="contact.html">Get Care</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer simple">
+    <div class="container legal">
+      <small>© <span id="year"></span> The Digital Luna</small>
+      <a class="pill" href="contact.html">Start a Project</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
